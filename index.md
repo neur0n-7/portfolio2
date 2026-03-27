@@ -1,53 +1,109 @@
 ---
-layout: post 
-title: Portfolio Home 
+layout: base
+title: Hi! I'm Anish Gupta
 hide: true
-show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+<br>
+
+<style>
+    .glowing-text {
+    color: #fff; /* Set the text color to white or a light color for better contrast */
+    text-shadow: 0 0 10px #8a2be2, /* Purple glow */
+                0 0 20px #8a2be2, /* Deeper purple glow */
+                0 0 30px #4169e1, /* Blue glow */
+                0 0 40px #4169e1; /* Deeper blue glow */
+    font-weight: 600
+    }
+
+    .project-link {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project-link:hover{
+        transform: scale(1.1);
+    }
+
+</style>
+
+<h2 class="glowing-text"><center> Anish Gupta </center></h2>
+
+Tinkerers Roles:
+
+| Role                   | Name      | Repo Location                                 | Stream                | Repo Name |
+|------------------------|-----------|-----------------------------------------------|-----------------------|-----------|
+| Scrum Master           | Anish     | <https://github.com/neur0n-7/student>         | upstream (OCS fork)     | student   |
+| Asst. Scrum Master     | Samarth   | <https://github.com/samarthhande/student>     | downstream (fork)     | student   |
+| Scrummer               | James     | <https://github.com/1j-bla1/student>          | downstream (fork)     | student   |
+| Scrummer               | Krish     | <https://github.com/TheCoder203/student>      | downstream (fork)     | student   |
+| Scrummer               | Pranay    | <https://github.com/pkdev0101/student>        | downstream (fork)     | student   |
+| Scrummer               | Vihaan    | <https://github.com/veen456/student>          | downstream (fork)     | student   |
+
+
+## Links to Learning
 
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="https://opencodingsociety.com" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FA8072; border-radius: 6px; font-weight: 700;">
-        <img src="{{ '/favicon.ico' | relative_url }}" alt="OCS logo" style="width: 16px; height: 16px;">
-        OCS
-    </a>
-    <a href="https://github.com/Open-Coding-Society/portfolio" style=" text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #FFF; border-radius: 6px; font-weight: 700;">
-        <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub logo" style="width: 16px; height: 16px;">
-        GitHub
-    </a>
-    <a href="https://vscode.dev/" style="text-decoration: none; display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid #007ACC; border-radius: 6px; font-weight: 700;">
-        <img src="https://vscode.dev/favicon.ico" alt="VSCode logo" style="width: 16px; height: 16px;">
-        VSCode.dev
-    </a>
-</div>
+<a href="https://github.com/CompSciTeam/student">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="https://CompSciTeam.github.io/student">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?logo=github&logoColor=white" alt="GitHub Pages">
+</a>
+
+
+<a href="https://kasm.opencodingsociety.com/" class="button small" style="background-color: #6b4bd3ff">
+    KASM
+</a>
+<a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
+    <span style="color: #FFFFFF">VSCODE</span>
+</a>
 
 <br>
 
 ### Class Progress
 
-> Here is my progress through coding, click to see these online
+<!--
+<a href="{{site.baseurl}}/snake" class="button small" style="background-color: #6b4bd3ff">
+    Snake Game
+</a>
+<a href="{{site.baseurl}}/turtle" class="button small" style="background-color: #2A7DB1">
+    <span style="color: #000000">Turtle</span>
+</a>
+-->
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
-        <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Snake
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/gamify/parallax" style="text-decoration: none;">
-        <div style="background-color: #3c1de8; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-           Fish
-        </div>
-    </a>
-    <a href="{{site.baseurl}}/gamify/water" style="text-decoration: none;">
-        <div style="background-color: #b71dc5; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-           Squid
-        </div>
-    </a>
-</div>
+<a href="{{site.baseurl}}/onboarding/home" class="button small" style="background-color: #6b4bd3ff">
+    <br><strong>Onboarding Adventure</strong><br>
+</a>
+
+<a href="{{site.baseurl}}/snake">
+    <img src="{{site.baseurl}}/images/index/snake.png" alt="Snake" class="project-link">
+</a>
+
+<br>
+
+<a href="{{site.baseurl}}/background">
+    <img src="{{site.baseurl}}/images/index/background.png" alt="Background" class="project-link">
+</a>
+
+<br>
+
+<a href="{{site.baseurl}}/turtle">
+    <img src="{{site.baseurl}}/images/index/turtle.png" alt="Turtle" class="project-link">
+</a>
+
+<br>
+
+<a href="{{site.baseurl}}/calculator">
+    <img src="{{site.baseurl}}/images/index/calculator.png" alt="Calculator" class="project-link">
+</a>
+
+<br>
+
+<a href="{{site.baseurl}}/wordgame">
+    <img src="{{site.baseurl}}/images/index/wordgame.png" alt="Word Game" class="project-link">
+</a>
 
 <br>
