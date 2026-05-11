@@ -12,6 +12,10 @@
 # Games
 games/cs-pathway:dev
 games/gamify:dev
+games/castle-game:dev
+games/spline-barriers:dev
+games/castle-game:dev
+games/platformer:dev
 
 # Systems
 #systems/student-management-groups
