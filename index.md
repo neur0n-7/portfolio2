@@ -101,3 +101,12 @@ show_reading_time: false
 <a href="{{site.baseurl}}/platformer">
     <img src="{{site.baseurl}}/images/index/platformer.png" alt="Platformer" class="project-link">
 </a>
+
+<a href="{{site.baseurl}}/spline-barriers">
+    <img src="{{site.baseurl}}/images/index/spline.png" alt="Spline" class="project-link">
+</a>
+
+
+<a href="https://neur0n-7.github.io/portfolio1/" class="button small" style="background-color: rgb(14, 103, 176)">
+    <br><strong>CSSE 1 (Tri 1) Portfolio</strong><br>
+</a>
