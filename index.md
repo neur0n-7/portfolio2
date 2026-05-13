@@ -5,7 +5,28 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+
+<style>
+    .glowing-text {
+    color: #fff; /* Set the text color to white or a light color for better contrast */
+    text-shadow: 0 0 10px #8a2be2, /* Purple glow */
+                0 0 20px #8a2be2, /* Deeper purple glow */
+                0 0 30px #4169e1, /* Blue glow */
+                0 0 40px #4169e1; /* Deeper blue glow */
+    font-weight: 600
+    }
+
+    .project-link {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project-link:hover{
+        transform: scale(1.1);
+    }
+
+</style>
+
+<h2 class="glowing-text"><center> Anish Gupta </center></h2>
 
 ### Development Environment
 
@@ -67,19 +88,16 @@ Hi! My name is [Your Full Name]
 
 > Here is my game progress through coding, click to see these in the browser
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" class="btn">
-        Snake
-    </a>
-    <a href="{{site.baseurl}}/gamify/parallax" class="btn" style="background-color: var(--green); ">
-        Fish
-    </a>
-    <a href="{{site.baseurl}}/gamify" class="btn" style="background-color: var(--teal);">
-       Gamify
-    </a>
-    <a href="{{site.baseurl}}/cs-pathway" class="btn" style="background-color: var(--orange);">
-       CS Pathway
-    </a>
-</div>
+<a href="{{site.baseurl}}/cs111" class="button small" style="background-color: #6b4bd3ff">
+    <br><strong>CS111 Requirements</strong><br>
+</a>
+
+<a href="{{site.baseurl}}/castle-game">
+    <img src="{{site.baseurl}}/images/index/castle.png" alt="Castle" class="project-link">
+</a>
 
 <br>
+
+<a href="{{site.baseurl}}/platformer">
+    <img src="{{site.baseurl}}/images/index/platformer.png" alt="Platformer" class="project-link">
+</a>
